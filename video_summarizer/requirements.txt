@@ -1,0 +1,12 @@
+# ============================================
+# CPU SYSTEM REQUIREMENTS (Current PC)
+# ============================================
+# For GPU system, use: requirements-gpu.txt
+
+streamlit
+openai-whisper
+moviepy
+opencv-python
+yt-dlp
+numpy
+faster-whisper

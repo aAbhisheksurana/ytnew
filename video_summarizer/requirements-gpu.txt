@@ -1,0 +1,45 @@
+# ============================================
+# GPU SYSTEM REQUIREMENTS (64GB RAM + 8GB GPU)
+# ============================================
+
+# IMPORTANT: Install PyTorch with GPU support FIRST!
+# Run this command BEFORE installing requirements.txt:
+#
+# For CUDA 11.8 (most common):
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+#
+# For CUDA 12.1 (newer GPUs):
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+#
+# Check your CUDA version: nvidia-smi
+
+# After PyTorch GPU, install these:
+streamlit
+openai-whisper
+moviepy
+opencv-python
+yt-dlp
+numpy
+
+# Optional: For faster video encoding
+# ffmpeg-python
+
+# ============================================
+# SETUP STEPS:
+# ============================================
+# 1. Check CUDA version:
+#    nvidia-smi
+#
+# 2. Install PyTorch GPU:
+#    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+#
+# 3. Verify GPU:
+#    python -c "import torch; print(torch.cuda.is_available())"
+#
+# 4. Install other dependencies:
+#    pip install -r requirements-gpu.txt
+#
+# 5. Update code (see GPU_SETUP_GUIDE.md):
+#    - Change: model = whisper.load_model("large", device="cuda")
+#
+# ============================================

@@ -1,0 +1,36 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Temporary video files
+uploaded_*
+downloaded_video.*
+trimmed_*
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Generated content (optional - uncomment if you want to keep)
+# generated_shorts/
+generated_history.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# FFmpeg binaries (if included)
+bin/

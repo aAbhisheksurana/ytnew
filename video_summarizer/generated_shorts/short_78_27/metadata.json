@@ -1,0 +1,8 @@
+{
+    "original_video": "/home/abhishek/shots/video_summarizer/downloaded_video.mp4",
+    "start_time": 4707.043106664929,
+    "end_time": 4767.043106664929,
+    "duration": 60.0,
+    "face_tracking": true,
+    "smoothing": 4
+}
